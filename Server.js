@@ -14,6 +14,5 @@ app.listen(port,()=>{
 });
 
 app.get('/', function (req, res) {
-    console.log(baseDir);
-    res.sendFile(path.join(baseDir,"index.html"));
+    res.sendFile('index.html');
 })
