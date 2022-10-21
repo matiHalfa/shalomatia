@@ -1,0 +1,16 @@
+{
+    "name": "sha-nodejs-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^0.19.2",
+      "express": "^4.17.1"
+    }
+  }
