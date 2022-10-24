@@ -1,14 +1,12 @@
 {
     "name": "shalomatia",
     "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
+    "main": "index.js",
+	"license": "MIT",
     "scripts": {
-      "start": "node server.js"
+      "start": "node src/index.js",
+	    "build":"echo Building..."
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
     "dependencies": {
       "express": "^4.17.1"
     }
