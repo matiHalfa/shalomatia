@@ -2,12 +2,13 @@
     "name": "shalomatia",
     "version": "1.0.0",
     "main": "index.js",
-	"license": "MIT",
+    "license": "MIT",
     "scripts": {
-      "start": "node src/index.js",
-	    "build":"echo Building..."
+        "start": "node src/index.js",
+        "build":"echo 'Building Mati Server'"
     },
     "dependencies": {
-      "express": "^4.17.1"
+        "express": "^4.17.1",
+        "mysql": "^2.18.1"
     }
-  }
+}
